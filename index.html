@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Analysis Platform</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="card-title text-center">Image Analysis Platform</h1>
+                <form id="uploadForm" class="mt-4">
+                    <div class="form-group">
+                        <label for="imageInput">Upload an image:</label>
+                        <input type="file" class="form-control-file" id="imageInput" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Analyze</button>
+                </form>
+                <div id="result" class="mt-4" style="display: none;">
+                    <h2 class="text-center">Analysis Result</h2>
+                    <pre id="analysisOutput" class="p-3 border rounded"></pre>
+                </div>
+                <div id="loader" class="text-center mt-4" style="display: none;">
+                    <div class="spinner-border" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

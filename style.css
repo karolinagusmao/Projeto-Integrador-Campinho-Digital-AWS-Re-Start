@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+h1 {
+    color: #232f3e; /* AWS Dark Blue */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    color: #4a90e2; /* AWS Light Blue */
+}
+
+button {
+    background-color: #ff9900; /* AWS Orange */
+    border: none;
+}
+
+button:hover {
+    background-color: #e68a00; /* Darker AWS Orange */
+}
+
+#result h2 {
+    font-size: 1.5rem;
+    color: #232f3e; /* AWS Dark Blue */
+    margin-bottom: 1rem;
+}
+
+#analysisOutput {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    white-space: pre-wrap;
+    color: #333333;
+}
+
+#loader .spinner-border {
+    color: #4a90e2; /* AWS Light Blue */
+}
